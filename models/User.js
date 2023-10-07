@@ -42,7 +42,7 @@ const userSchema = new mongoose.Schema(
       type: String,
       default: null,
     },
-    occpupation: {
+    occupation: {
       type: String,
       default: null,
     },
