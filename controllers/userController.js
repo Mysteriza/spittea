@@ -30,7 +30,7 @@ const createNewUser = asyncHandler(async (req, res) => {
   const user = await User.create(userObject);
 
   if (user) {
-    return res.status(200).json({ message: "New user create successfully!" });
+    return res.status(200).json({ message: "New user created successfully!" });
   } else {
     return res.status(400).json({ message: "Something went wrong!" });
   }

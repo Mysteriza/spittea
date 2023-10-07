@@ -19,7 +19,7 @@ app.use(
 app.use("/", express.static(path.join(__dirname, "public/assets")));
 
 // Perbaikan path require untuk file root.js
-app.use("/", require("./routes/ROOT.JS"));
+app.use("/", require("./routes/root.js"));
 app.use("/users", require("./routes/userRoutes"));
 
 mongoose.connection.once("open", () => {
