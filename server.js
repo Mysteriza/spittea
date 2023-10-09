@@ -23,8 +23,8 @@ app.use("/", require("./routes/root.js"));
 app.use("/users", require("./routes/userRoutes"));
 
 mongoose.connection.once("open", () => {
-  console.log("Connection to the MongoDB database established!");
+  console.log("Connected to MongoDB Database!");
   app.listen(PORT, () =>
-    console.log(`Mysteriza server is now online on PORT ${PORT}!`)
+    console.log(`Your server online on PORT ${PORT}!`)
   );
 });
