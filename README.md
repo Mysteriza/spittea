@@ -1,4 +1,4 @@
-# Spittea: Spill The Tea ☕️
+# Spittea: Spill The Tea ☕️ (Unfinished)
 
 Spittea is a social media platform named after "Spill The Tea," providing a platform for candid conversations and engaging discussions. It is built using the MERN (MongoDB, Express.js, React.js, Node.js) stack and features a user interface inspired by Facebook and unique elements from LinkedIn.
 
